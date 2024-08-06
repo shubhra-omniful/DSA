@@ -1,0 +1,16 @@
+Brute force
+two pointers 
+sliding window
+kadanes algo
+sorting
+searching & binay search
+linkedlist
+stack & queue
+recursion
+back-tracking
+tree
+graph
+dp
+
+
+int mid = left + (right - left) / 2;
