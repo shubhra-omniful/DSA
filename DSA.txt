@@ -13,4 +13,20 @@ graph
 dp
 
 
-int mid = left + (right - left) / 2;
+left := 2
+right := 3
+
+m := (left + right) / 2 // not efficient when array if larger size
+mid := left + (right-left)/2
+fmt.Println("mid ", mid)
+fmt.Println("m ", m)
+
+n := 10
+i := -1
+
+nextPositionOfAnArray := (i + 1) % n
+previousPositionOfAnArray := (i + n - 1) % n
+
+fmt.Println("next :", nextPositionOfAnArray)
+fmt.Println("previous :", previousPositionOfAnArray)
+
